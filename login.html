@@ -18,23 +18,56 @@
     </header>
     <main>
         <div class="center">
-            <div class="login">
+            <div class="login" id="main">
                 <div class="login-title">
-                    <h2 class="on"><a href="#">扫码登录</a></h2>
+                    <h2 class="on" id="qr-login">扫码登录</h2>
                     <span>|</span>
-                    <h2><a href="#">账户登录</a></h2>
+                    <h2 id="user-login">账户登录</h2>
                 </div>
-                <div class="login-two">
+                <div class="login-two" id="qr">
                     <img src="images/getQrImage.png" alt="">
                 </div>
+                <!-- <div class="user">
+                    <label><div></div><input type="text" class="userName" placeholder="手机号/用户名/邮箱"></label>
+                    <label><div></div><input type="text" class="passWord" placeholder="密码"></label>
+                </div> -->
                 <div class="login-res">
                     <i class="icon"></i>
                     <span>打开</span>
                     <a href="#">唯品会APP-个人中心</a>
                     <span>, 扫一扫登录</span>
                 </div>
+                <div class="login-way">
+                    <div class="fl line"></div>
+                    <div class="container fl">
+                        <div class="main-way"></div>
+                    </div>
+                    <div class="fr line"></div>
+                </div>
+                <div class="more-way">
+                    <ul>
+                        <li><a href="#">新浪微博</a></li>
+                        <li><a href="#">QQ</a></li>
+                        <li><a href="#">支付宝</a></li>
+                        <li class="all-ways" id="all">更多 <img src="images/down-sanjiao.png"></li>
+                        <li class="more-w" id="small">收起 <img src="images/up-sanjiao.png"></li>
+                        <li class="register"><a href="#">免费注册</a></li>
+                    </ul>
+                </div>
+                <div class="ways" id="ways">
+                    <ul>
+                        <li><a href="#">网易</a></li>
+                        <li><a href="#">人人网</a></li>
+                        <li><a href="#">建行登录</a></li>
+                        <li><a href="#">开心网</a></li>
+                        <li><a href="#">中国移动</a></li>
+                        <li><a href="#">翼支付</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </main>
+
+<script src="js/login.js"></script>
 </body>
 </html>
